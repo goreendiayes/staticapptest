@@ -1,0 +1,462 @@
+[
+    {
+      "key": 0,
+      "image": "Demography",
+      "name": "Demography",
+      "items": [
+        {
+          "name": "Age Distribution",
+          "url": "age_distribution.csv",
+          "total": "denom_total_pop",
+          "items": [
+            {
+              "name": "Population Under Age 18",
+              "count": "pop_under_age_18_count",
+              "pct": "pop_under_age_18_pct"
+            },
+            {
+              "name": "Population Ages 18-24",
+              "count": "pop_ages_18_24_count",
+              "pct": "pop_ages_18_24_pct"
+            },
+            {
+              "name": "Population Ages 25-34",
+              "count": "pop_ages_25_34_count",
+              "pct": "pop_ages_25_34_pct"
+            },
+            {
+              "name": "Population Ages 35-44",
+              "count": "pop_ages_35_44_count",
+              "pct": "pop_ages_35_44_pct"
+            },
+            {
+              "name": "Population Ages 45-54",
+              "count": "pop_ages_45_54_count",
+              "pct": "pop_ages_45_54_pct"
+            },
+            {
+              "name": "Population Ages 55-64",
+              "count": "pop_ages_55_64_count",
+              "pct": "pop_ages_55_64_pct"
+            },
+            {
+              "name": "Population Ages 65 & Older",
+              "count": "pop_ages_65_older_count",
+              "pct": "pop_ages_65_older_pct"
+            }
+          ]
+        },
+        {
+          "name": "Households",
+          "url": "households.csv",
+          "total": "denom_total_pop",
+          "items": [
+            {
+              "name": "Average Household Size",
+              "count": "avg_household_cnt",
+              "avg": "avg_household_avg"
+            },
+            {
+              "name": "Children in Non-Family Households",
+              "count": "asdf",
+              "avg": "asdf"
+            },
+            {
+              "name": "Children in Single-Parent Households",
+              "count": "asdf",
+              "avg": "asdf"
+            },
+            {
+              "name": "Non-Family Households",
+              "count": "asdf",
+              "avg": "asdf"
+            }
+          ]
+        },
+        {
+          "name": "Immigration",
+          "items": [
+            { "name": "Immigrant Population" },
+            { "name": "Immigrant Citizen Population" },
+            { "name": "Immigrant Non-Citizen Population" },
+            { "name": "Before 1990: Immigrants Entering U.S. by Decade" },
+            { "name": "1990 - 1999: Immigrants Entering U.S. by Decade" },
+            { "name": "2000 - 2009: Immigrants Entering U.S. by Decade" },
+            { "name": "2010 or Later: Immigrants Entering U.S. by Decade" }
+          ]
+        },
+        {
+          "name": "Marital Status",
+          "items": [
+            { "name": "Divorced/Separated Population" },
+            { "name": "Married Population" },
+            { "name": "Never-Married Population" },
+            { "name": "Widowed Population" },
+            { "name": "Race & Ethnicity" }
+          ]
+        },
+        {
+          "name": "Race & Ethnicity",
+          "items": [
+            { "name": "American Indian/Native Population" },
+            { "name": "Asian Population" },
+            { "name": "Black Population" },
+            { "name": "Hispanic Population" },
+            { "name": "Native Hawaiian/Other Pacific Islander Population" },
+            { "name": "Other Race Population" },
+            { "name": "Two or More Races Population" },
+            { "name": "White Population" }
+          ]
+        },
+        { 
+          "url": "age_distribution.csv",
+          "name": "Total Population",
+          "total": "denom_total_pop",
+          "count": "denom_total_pop"
+        },
+        {
+          "name": "Youth in Households",
+          "items": [
+            { "name": "Youth in Non-Family Households" },
+            { "name": "Youth in Single Parent Households" }
+          ]
+        },
+        { "name": "Veteran Status" }
+      ]
+    },
+    {
+      "key": 1,
+      "image": "Education",
+      "name": "Education",
+      "items": [
+        {
+          "name": "Chronic Absenteeism",
+          "items": [
+            { "name": "College Graduation Rate" },
+            { "name": "Less Than High School" }
+          ]
+        },
+        {
+          "name": "Educational Attainment",
+          "items": [
+            { "name": "College Graduation Rate" },
+            { "name": "Less Than High School" },
+            { "name": "English Learners" }
+          ]
+        },
+        {
+          "name": "English Learners",
+          "items": [
+            { "name": "EL Reclassification Rate" },
+            { "name": "Total EL Students" }
+          ]
+        },
+        { "name": "Strong Start Index" },
+  
+        {
+          "name": "Student Proficiency",
+          "items": [
+            { "name": "Elementary English Proficiency" },
+            { "name": "Elementary Math Proficiency" },
+            { "name": "Middle School English Proficiency" },
+            { "name": "Middle School Math Proficiency" },
+            { "name": "High School English Proficiency" },
+            { "name": "High School Math Proficiency" }
+          ]
+        },
+        { "name": "College Enrollment" }
+      ]
+    },
+    {
+      "key": 2,
+      "image": "EmploymentIncome",
+      "name": "Employment & Income",
+      "items": [
+        {
+          "name": "Area Income Limits",
+          "items": [
+            { "name": "Extremely Low Income Households" },
+            { "name": "Very Low Income Households" },
+            { "name": "Low Income Households" },
+            { "name": "Middle Income Households" },
+            { "name": "Above Middle Income Households" }
+          ]
+        },
+        {
+          "name": "Employment Status",
+          "items": [
+            { "name": "Labor Force Participation Rate" },
+            { "name": "Unemployment Rate" }
+          ]
+        },
+        { "name": "Median Household Income" },
+        {
+          "name": "Jobs & Industries",
+          "items": [
+            { "name": "Industry Jobs in Accommodation and Food Services" },
+            { "name": "Industry Jobs in Administrative & Support & Waste Management & Remediation Services"},
+            { "name": "Industry Jobs in Agriculture, Forestry, Fishing & Hunting" },
+            { "name": "Industry Jobs in Arts, Entertainment & Recreation"},
+            { "name": "Industry Jobs in Construction"},
+            { "name": "Industry Jobs in Educational Services"},
+            { "name": "Industry Jobs in Finance & Insurance"},
+            { "name": "Industry Jobs in Healthcare & Social Assistance"},
+            { "name": "Industry Jobs in Information"},
+            { "name": "Industry Jobs in Management of Companies & Enterprises"},
+            { "name": "Industry Jobs in Manufacturing"},
+            { "name": "Industry Jobs in Mining, Quarrying, & Oil & Gas Extraction"},
+            { "name": "Industry Jobs in Professional, Scientific & Technical Services"},
+            { "name": "Industry Jobs in Public Administration"},
+            { "name": "Industry Jobs in Real Estate & Rental & Leasing"},
+            { "name": "Industry Jobs in Retail Trade"},
+            { "name": "Industry Jobs in Transportation & Warehousing"},
+            { "name": "Industry Jobs in Utilities"},
+            { "name": "Industry Jobs in Wholesale Trade"},
+            { "name": "Industry Jobs in Other Services"}
+          ]
+        },
+        { "name": "Opportunity Youth" },
+  
+        {
+          "name": "Poverty",
+          "items": [
+            { "name": "Below 100% Poverty Threshold" },
+            { "name": "Below 200% Poverty Threshold" }
+          ]
+        },
+        {
+          "name": "Public Assistance",
+          "items": [
+            { "name": "Cash Public Assistance" },
+            { "name": "Food Stamps/SNAP Benefits" },
+            { "name": "Supplemental Security Inc" }
+          ]
+        },
+        {
+          "name": "Workers by Industry",
+          "items": [
+            { "name": "Accommodation & Food Services Workers" },
+            { "name": "Administrative & Support & Waste Management & Remediation Services Workers" },
+            { "name": "Agriculture, Forestry, Fishing & Hunting Workers" },
+            { "name": "Arts, Entertainment & Recreation Workers" },
+            { "name": "Construction Workers" },
+            { "name": "Educational Services Workers" },
+            { "name": "Finance & Insurance Workers" },
+            { "name": "Healthcare & Social Assistance Workers" },
+            { "name": "Information Workers" },
+            { "name": "Manufacturing Workers" },
+            { "name": "Mining, Quarrying, & Oil & Gas Extraction Workers" },
+            { "name": "Management of Companies & Enterprises Workers" },
+            { "name": "Other Services Workers" },
+            { "name": "Professional, Scientific & Technical Services Workers" },
+            { "name": "Public Administration Workers" },
+            { "name": "Real Estate & Rental & Leasing Workers" },
+            { "name": "Retail Trade Workers" },
+            { "name": "Transportation & Warehousing Workers" },
+            { "name": "Utilities Workers" },
+            { "name": "Wholesale Trade Workers" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 3,
+      "image": "Environment",
+      "name": "Environment",
+      "items": [
+        { "name": "Air Quality" },
+        { "name": "Pollution Burden" },
+        { "name": "Water Quality" }
+      ]
+    },
+    {
+      "key": 4,
+      "image": "FoodInsecurity",
+      "name": "Food Insecurity",
+      "items": [
+        { "name": "Free & Reduced Price Lunch" },
+        { "name": "SNAP Acceptance" },
+        { "name": "Grocery Store Access" }
+      ]
+    },
+    {
+      "key": 5,
+      "image": "Health",
+      "name": "Health",
+      "items": [
+        { "name": "Asthma" },
+        { "name": "Cardiovascular Disease" },
+        { "name": "Childhood Obesity" },
+        { "name": "Disability Status" },
+        {
+          "name": "Immunizations",
+          "items": [
+            { "name": "Kindergarten Immunization Rate" },
+            { "name": "7th Grade Immunization Rate" }
+          ]
+        },
+        { "name": "Uninsured Rate" }
+      ]
+    },
+    {
+      "key": 6,
+      "image": "HousingRealEstate",
+      "name": "Housing & RealEstate",
+      "items": [
+        {
+          "name": "Building Permits",
+          "items": [
+            { "name": "New Residential Building Permits" },
+            { "name": "Valuation of New Building Permit Construction" },
+            { "name": "Foreclosure" },
+            { "name": "Homelessness" }
+          ]
+        },
+        { "name": "Foreclosure" },
+        {
+          "name": "Homelessness",
+          "items": [
+            { "name": "Total Homeless Population" },
+            { "name": "Sheltered Population" },
+            { "name": "Unsheltered Population" },
+            { "name": "Homeownership" }
+          ]
+        },
+        {
+          "name": "Homeownership",
+          "items": [
+              { "name": "Homeownership Rate" },
+              { "name": "Renter Rate" }
+          ]
+        },
+        { "name": "Housing Stability" },
+        { "name": "LIHTC" },
+        { "name": "Overcrowding" },
+        {
+          "name": "Rent Burden",
+          "items": [
+              { "name": "Rent Burden" }, 
+              { "name": "Severe Rent Burden" }
+          ]
+        },
+        { "name": "Rent Price" },
+        {
+          "name": "Subsidized Housing",
+          "items": [
+            { "name": "Housing Choice Vouchers" },
+            { "name": "Other Project-Based Programs" },
+            { "name": "Public Housing" }
+          ]
+        },
+        { "name": "Total Housing Units" },
+        {
+          "name": "Vacant Properties",
+          "items": [
+            { "name": "Vacant Commercial Properties" },
+            { "name": "Vacant Residential Properties" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 7,
+      "image": "PublicSafety",
+      "name": "Public Safety",
+      "items": [
+        { "name": "Calls for Service" },
+        {
+          "name": "Part I Crimes",
+          "items": [
+            { "name": "Part I Property Crimes" },
+            { "name": "Part I Violent Crimes" },
+            { "name": "Part II Crimes" }
+          ]
+        },
+        {
+          "name": "Stops",
+          "items": [
+            { "name": "Total Stop Rate" },
+            { "name": "Pedestrian Stop Rate" },
+            { "name": "Vehicle Stop Rate" },
+            { "name": "Black Stops" },
+            { "name": "Latino Stops" },
+            { "name": "White Stops" },
+            { "name": "Other Stops" }
+          ]
+        },
+        {
+          "name": "Arrests",
+          "items": [
+            { "name": "Total Arrest Rate" },
+            { "name": "Juvenile Arrest Rate" },
+            { "name": "Black Arrests" },
+            { "name": "Latino Arrests" },
+            { "name": "White Arrests" },
+            { "name": "Other Arrests" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 8,
+      "image": "SocialConnectedness",
+      "name": "Social Connectedness",
+      "items": [
+        { "name": "Healthcare Institutions" },
+        { "name": "High Cost Lenders" },
+        { "name": "Libraries" },
+        {
+          "name": "Language Spoken at Home",
+          "items": [
+            { "name": "Chinese (incl. Mandarin, Cantonese)" },
+            { "name": "Korean" },
+            { "name": "Only English" },
+            { "name": "Spanish" },
+            { "name": "Tagalog (incl. Filipino)" }
+          ]
+        },
+        { "name": "Linguistic Isolation" },
+        { "name": "Museums" },
+        { "name": "Linguistic Isolation" },
+        { "name": "Museums" },
+        { "name": "Parks Access" },
+        { "name": "Religious Institutions" },
+        { "name": "Theaters" },
+        { "name": "Voter Turnout" },
+        {
+          "name": "Computer & Internet Access",
+          "items": [
+            { "name": "Cellular Data Plan Only" },
+            { "name": "No Computer" },
+            { "name": "No Internet Subscription" },
+            { "name": "Smartphone Only" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 9,
+      "image": "Transportation",
+      "name": "Transportation",
+      "items": [
+        {
+          "name": "Commute Mode",
+          "items": [
+            { "name": "Public Transit" },
+            { "name": "Bikes or Walks" },
+            { "name": "Carpools" },
+            { "name": "Drives Alone" }
+          ]
+        },
+        { "name": "Traffic Collisions" },
+        {
+          "name": "Vehicle Ownership",
+          "items": [
+            { "name": "Average Vehicles per Household" },
+            { "name": "No Vehicle Households" }
+          ]
+        },
+        { "name": "Commute Time" }
+      ]
+    }
+  ]

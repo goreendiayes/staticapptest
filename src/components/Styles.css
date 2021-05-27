@@ -1,0 +1,27 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: black;
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: silver white;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: silver;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
